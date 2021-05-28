@@ -1,36 +1,25 @@
 import React from "react";
-import { Card as CardAntd, Avatar } from "antd";
-import {
-  EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+import { Card as CardAntd } from "antd";
+import { EyeOutlined, ShoppingCartOutlined } from "@ant-design/icons";
 
 const { Meta } = CardAntd;
 //   hoverable
 
-export const Card = () => {
+export const Card = ({ source, title, description }) => {
   return (
     <CardAntd
-      style={{ width: 300 }}
-      cover={
-        <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-        />
-      }
+      cover={<img alt="example" src={source} height={220} width={120} />}
       actions={[
-        <SettingOutlined key="setting" />,
-        <EditOutlined key="edit" />,
-        <EllipsisOutlined key="ellipsis" />,
+        <ShoppingCartOutlined onClick={() => alert("Car")} />,
+        <EyeOutlined onClick={() => alert("Ver")} />,
       ]}
     >
       <Meta
-        avatar={
-          <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-        }
-        title="Card title"
-        description="This is the description"
+        // avatar={
+        //   <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
+        // }
+        title={title}
+        description={description}
       />
     </CardAntd>
   );
