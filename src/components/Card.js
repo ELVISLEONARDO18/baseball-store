@@ -8,6 +8,7 @@ const { Meta } = CardAntd;
 export const Card = ({ source, title, description }) => {
   return (
     <CardAntd
+      style={{ margin: "20px 0px" }}
       cover={<img alt="example" src={source} height={220} width={120} />}
       actions={[
         <ShoppingCartOutlined onClick={() => alert("Car")} />,
