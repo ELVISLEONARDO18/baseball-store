@@ -25,3 +25,28 @@ h1 {
   font-weight: 700;
   font-size: 30px;
 }
+
+p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.img-about {
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .img-about {
+    width: 250px;
+    height: 100px;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-about {
+    width: 600px;
+    height: 300px;
+  }
+}
