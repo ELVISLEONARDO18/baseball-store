@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu, Layout } from "antd";
-import { HomeOutlined } from "@ant-design/icons";
+import { AlipayCircleOutlined } from "@ant-design/icons";
 
 import { Link } from "react-router-dom";
 const { Header } = Layout;
@@ -19,7 +19,7 @@ export const HeaderContainer = () => {
       >
         <Menu.Item key="1">
           <Link to="/" style={{ alignItems: "center", display: "flex" }}>
-            <HomeOutlined
+            <AlipayCircleOutlined
               style={{ color: "white", fontSize: 45, padding: 9.5 }}
             />
           </Link>

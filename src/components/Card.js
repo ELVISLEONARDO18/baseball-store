@@ -10,10 +10,7 @@ export const Card = ({ source, title, description }) => {
     <CardAntd
       style={{ margin: "20px 0px" }}
       cover={<img alt="example" src={source} height={220} width={120} />}
-      actions={[
-        <ShoppingCartOutlined onClick={() => alert("Car")} />,
-        <EyeOutlined onClick={() => alert("Ver")} />,
-      ]}
+      actions={[<ShoppingCartOutlined />, <EyeOutlined />]}
     >
       <Meta
         // avatar={

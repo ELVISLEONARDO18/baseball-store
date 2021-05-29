@@ -1,4 +1,4 @@
-import { Col, Row } from "antd";
+import { Col, Divider, Row } from "antd";
 import React from "react";
 import { Card } from "../components/Card";
 import zapatos1 from "../assets/img/camisa1.jpg";
@@ -45,6 +45,8 @@ export const OffertContainer = () => {
               description={"Medias retro"}
             />
           </Col>
+          <Divider />
+
           <Col className="gutter-row mt-3" md={6} lg={5}>
             <Card
               source={gauntines}

@@ -7,8 +7,9 @@
 }
 
 .section {
-  background-color: #25334a;
+  background-color: #d8e3e7;
   align-items: center;
+  border-radius: 20px;
 }
 
 .img-slider {
@@ -18,4 +19,9 @@
   text-align: center;
   background: #364d79;
   width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 30px;
 }

@@ -39,7 +39,7 @@ export const ShoesContainer = () => {
             <Card
               source={zapatos4}
               title={"$ 40"}
-              description={"Zapatos de ganchos mizuno negros"}
+              description={"Zapatos de ganchos Under Armour negros"}
             />
           </Col>
         </Row>
