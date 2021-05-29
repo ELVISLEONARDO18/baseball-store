@@ -28,7 +28,10 @@ export const HeaderContainer = () => {
           <Link to="/">Home</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to="/About">Nosotros</Link>
+          <Link to="/nosotros">Nosotros</Link>
+        </Menu.Item>
+        <Menu.Item key="4">
+          <Link to="/contact">Contacto</Link>
         </Menu.Item>
       </Menu>
     </Header>

@@ -2,16 +2,16 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { About } from "../screens/About";
 import { Home } from "../screens/Home";
-import { Product } from "../screens/Product";
+import { Contact } from "../screens/Contact";
 
 export const Navigator = () => {
   return (
     <Switch>
-      <Route path="/About">
+      <Route path="/nosotros">
         <About />
       </Route>
-      <Route path="/Product/:id">
-        <Product />
+      <Route path="/Contact">
+        <Contact />
       </Route>
       <Route path="/">
         <Home />
