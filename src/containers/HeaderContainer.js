@@ -19,7 +19,7 @@ export const HeaderContainer = () => {
       >
         <Menu.Item key="1">
           <Link
-            to="/baseball-store/"
+            to="https://elvisleonardo18.github.io/baseball-store/"
             style={{ alignItems: "center", display: "flex" }}
           >
             <AlipayCircleOutlined
@@ -28,7 +28,9 @@ export const HeaderContainer = () => {
           </Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to="/baseball-store/">Home</Link>
+          <Link to="https://elvisleonardo18.github.io/baseball-store/">
+            Home
+          </Link>
         </Menu.Item>
         <Menu.Item key="3">
           <Link to="/baseball-store/nosotros">Nosotros</Link>

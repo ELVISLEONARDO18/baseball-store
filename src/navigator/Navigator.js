@@ -7,13 +7,13 @@ import { Contact } from "../screens/Contact";
 export const Navigator = () => {
   return (
     <Switch>
-      <Route path="/baseball-store/nosotros">
+      <Route path="/nosotros">
         <About />
       </Route>
-      <Route path="/baseball-store/Contact">
+      <Route path="/Contact">
         <Contact />
       </Route>
-      <Route path="/baseball-store/">
+      <Route path="https://elvisleonardo18.github.io/baseball-store/">
         <Home />
       </Route>
     </Switch>
