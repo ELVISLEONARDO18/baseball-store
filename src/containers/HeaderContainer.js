@@ -25,13 +25,13 @@ export const HeaderContainer = () => {
           </Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to="/">Home</Link>
+          <Link to="/baseball-store/">Home</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to="/nosotros">Nosotros</Link>
+          <Link to="/baseball-store/nosotros">Nosotros</Link>
         </Menu.Item>
         <Menu.Item key="4">
-          <Link to="/contact">Contacto</Link>
+          <Link to="/baseball-store/contact">Contacto</Link>
         </Menu.Item>
       </Menu>
     </Header>
