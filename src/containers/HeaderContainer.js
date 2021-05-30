@@ -18,7 +18,10 @@ export const HeaderContainer = () => {
         }}
       >
         <Menu.Item key="1">
-          <Link to="/" style={{ alignItems: "center", display: "flex" }}>
+          <Link
+            to="/baseball-store/"
+            style={{ alignItems: "center", display: "flex" }}
+          >
             <AlipayCircleOutlined
               style={{ color: "white", fontSize: 45, padding: 9.5 }}
             />
