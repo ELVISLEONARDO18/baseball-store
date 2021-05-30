@@ -13,6 +13,10 @@ export const FooterContainer = () => {
         bottom: 0,
         right: 0,
         left: 0,
+        height: 200,
+        alignItems: "center",
+        display: "flex",
+        justifyContent: "center",
       }}
     >
       Baseball store ©2021 Created by Elvis Muñoz
