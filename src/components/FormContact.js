@@ -1,5 +1,5 @@
-import React from "react";
-import { Form, Input, Button } from "antd";
+import React, { useEffect, useState } from "react";
+import { Form, Input, Button, Alert } from "antd";
 const layout = {
   labelCol: {
     span: 8,
@@ -22,9 +22,22 @@ const validateMessages = {
 };
 
 export const FormContact = () => {
+  const [send, setSend] = useState(false);
+
   const onFinish = (values) => {
     console.log(values);
+    setSend(true);
+    // return <Alert message="Enviado con exito" type="success" />;
+    // window.location.reload();
   };
+
+  useEffect(() => {
+    return () => {
+      setTimeout(() => {
+        window.location.reload();
+      }, 2000);
+    };
+  }, [send]);
 
   return (
     <Form
@@ -33,6 +46,22 @@ export const FormContact = () => {
       onFinish={onFinish}
       validateMessages={validateMessages}
     >
+      {send && (
+        <Alert
+          style={{
+            alignSelf: "center",
+            justifyContent: "center",
+            width: 400,
+            position: "absolute",
+            right: 0,
+            bottom: 20,
+          }}
+          message="Enviado con exito"
+          type="success"
+          closable
+          onClose={() => setSend(false)}
+        />
+      )}
       <Form.Item
         name={["user", "name"]}
         label="Nombre"
