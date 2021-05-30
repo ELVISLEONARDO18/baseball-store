@@ -28,13 +28,13 @@ export const FormContact = () => {
     console.log(values);
     setSend(true);
     // return <Alert message="Enviado con exito" type="success" />;
-    // window.location.reload();
   };
 
   useEffect(() => {
     return () => {
       setTimeout(() => {
-        window.location.reload();
+        window.location.href =
+          "https://elvisleonardo18.github.io/baseball-store/";
       }, 2000);
     };
   }, [send]);

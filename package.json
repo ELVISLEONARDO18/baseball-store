@@ -2,7 +2,7 @@
   "name": "baseball-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elvisleonardo18.github.io/baseball-store/*",
+  "homepage": "https://elvisleonardo18.github.io/baseball-store/",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@testing-library/jest-dom": "^5.12.0",
