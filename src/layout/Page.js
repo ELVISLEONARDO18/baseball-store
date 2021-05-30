@@ -8,7 +8,7 @@ import { FooterContainer } from "../containers/FooterContainer";
 export const Page = () => {
   return (
     <Layout className="layout">
-      <Router basename="https://elvisleonardo18.github.io/baseball-store/">
+      <Router basename="/">
         <HeaderContainer />
         <Navigator />
       </Router>
