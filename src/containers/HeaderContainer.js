@@ -18,25 +18,20 @@ export const HeaderContainer = () => {
         }}
       >
         <Menu.Item key="1">
-          <Link
-            to="https://elvisleonardo18.github.io/baseball-store/"
-            style={{ alignItems: "center", display: "flex" }}
-          >
+          <Link to="/" style={{ alignItems: "center", display: "flex" }}>
             <AlipayCircleOutlined
               style={{ color: "white", fontSize: 45, padding: 9.5 }}
             />
           </Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to="https://elvisleonardo18.github.io/baseball-store/">
-            Home
-          </Link>
+          <Link to="/">Home</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to="/baseball-store/nosotros">Nosotros</Link>
+          <Link to="/nosotros">Nosotros</Link>
         </Menu.Item>
         <Menu.Item key="4">
-          <Link to="/baseball-store/contact">Contacto</Link>
+          <Link to="/contact">Contacto</Link>
         </Menu.Item>
       </Menu>
     </Header>

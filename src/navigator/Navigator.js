@@ -13,7 +13,7 @@ export const Navigator = () => {
       <Route path="/Contact">
         <Contact />
       </Route>
-      <Route path="https://elvisleonardo18.github.io/baseball-store/">
+      <Route path="/">
         <Home />
       </Route>
     </Switch>
