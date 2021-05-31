@@ -33,8 +33,7 @@ export const FormContact = () => {
   useEffect(() => {
     return () => {
       setTimeout(() => {
-        window.location.href =
-          "https://elvisleonardo18.github.io/baseball-store/";
+        window.location.reload();
       }, 2000);
     };
   }, [send]);
