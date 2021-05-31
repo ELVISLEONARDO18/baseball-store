@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Home Page
 
-URL :[Enlace](https://github.com/facebook/create-react-app).
+URL : [Enlace](https://elvisleonardo18.github.io/baseball-store/).
 
 ## Available Scripts
 
