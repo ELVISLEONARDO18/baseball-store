@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/baseball-store/static/css/main.274cf618.chunk.css",
-    "main.js": "/baseball-store/static/js/main.3e416ca0.chunk.js",
-    "main.js.map": "/baseball-store/static/js/main.3e416ca0.chunk.js.map",
+    "main.js": "/baseball-store/static/js/main.5c1b5f1d.chunk.js",
+    "main.js.map": "/baseball-store/static/js/main.5c1b5f1d.chunk.js.map",
     "runtime-main.js": "/baseball-store/static/js/runtime-main.5e5da769.js",
     "runtime-main.js.map": "/baseball-store/static/js/runtime-main.5e5da769.js.map",
     "static/css/2.c02757eb.chunk.css": "/baseball-store/static/css/2.c02757eb.chunk.css",
@@ -39,6 +39,6 @@
     "static/css/2.c02757eb.chunk.css",
     "static/js/2.89798522.chunk.js",
     "static/css/main.274cf618.chunk.css",
-    "static/js/main.3e416ca0.chunk.js"
+    "static/js/main.5c1b5f1d.chunk.js"
   ]
 }
